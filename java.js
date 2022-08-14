@@ -40,7 +40,7 @@ function greened(a, b, c) {
 
 function zapzap() {
   if (xis == 3) {
-    let textow = `Olá, gostaria de fazer o pedido:\n- Prato: ${textprin}\n- Bebida: ${textbe} \n- Sobremesa: ${textsob}\nTotal: ${(
+    let textow = `Olá, gostaria de fazer o pedido:\n- Prato: ${textprin}\n- Bebida: ${textbe} \n- Sobremesa: ${textsob}\nTotal: R$ ${(
       precprin +
       precbe +
       precsob
