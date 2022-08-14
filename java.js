@@ -27,12 +27,10 @@ function greened(a, b, c) {
   if (b == '.itens1 div') {
     textprin = textolo.innerHTML
     precprin = Number(c)
-    console.log(textprin, textbe, textsob, precprin)
   }
   if (b == '.itens2 div') {
     textbe = textolo.innerHTML
     precbe = Number(c)
-    console.log(textprin, textbe, textsob, precprin)
   }
   if (b == '.itens3 div') {
     textsob = textolo.innerHTML
@@ -48,9 +46,8 @@ function zapzap() {
       precsob
     ).toFixed(2)}`
     let celular = '554891564265'
-    console.log(textow)
+
     textow = encodeURIComponent(textow)
-    console.log(textow)
 
     window.open(
       'https://api.whatsapp.com/send?phone=' + celular + '&text=' + textow,
