@@ -64,7 +64,7 @@ function zapzap() {
       precbe +
       precsob
     ).toFixed(2)}\n\nNome: ${namer}\nEndereço: ${homer}`
-    let celular = '554891564265'
+    let celular = '5514991826278'
 
     textow = encodeURIComponent(textow)
 
