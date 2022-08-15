@@ -168,6 +168,68 @@ a:visited {
   
 }
 
+.menuresum {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 414px;
+  background-color: rgba(255, 255, 255, 0.91);
+  z-index: 2;
+  display: none;
+}
+
+.menuresum .menuu {
+  position: fixed;
+  top: 336px;
+  width: 377px;
+  height: 353px;
+  background-color:  #50D074;
+  border-radius: 9px;
+  margin-left: 19px;
+  z-index: 3;
+  padding-top: 21px;
+  padding-left: 26px;
+  padding-right: 25px; 
+}
+
+.menuu button {
+  width: 329px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  font: 700 22px 'Roboto', sans-serif;
+  color: #50D074;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.menuu h2 {
+  font: 700 22px 'Roboto', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+
+#cancelmenu {
+  cursor: pointer;
+}
+
+.menuu p, .menuu span {
+  font: 400 22px 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.princ, .beb, .sob, .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price p, .price span {
+  font-weight: 700;
+}
+
 .lowlow a.javafun {
   background-color: #32B72F;
   transition: 0.3s;
@@ -181,4 +243,8 @@ a:visited {
 .iten.javafun{
   box-shadow: inset #32B72F 0px 0px 0px 5px;  
   transition: 0.3s;
+}
+
+.menuresum.javafun {
+  display: block;
 }
