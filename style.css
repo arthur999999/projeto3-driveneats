@@ -13,6 +13,7 @@ body {
 
 main {
   margin-bottom: 108px;
+  width: 100%;
 }
 
 body::-webkit-scrollbar {
