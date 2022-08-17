@@ -16,14 +16,6 @@ main {
   width: 414px;
 }
 
-body::-webkit-scrollbar {
-  color: black;
-}
-
-.itens1::-webkit-scrollbar, .itens2::-webkit-scrollbar, .itens3::-webkit-scrollbar {
-  scrollbar-color: red;
-  
-}
 
 /*==== header ====*/
 
